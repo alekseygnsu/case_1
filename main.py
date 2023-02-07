@@ -1,3 +1,11 @@
+def floor():
+    '''
+    TODO: From Alex
+    :return:
+    '''
+    pass
+
+
 def window():
     '''
     Function draws window.
