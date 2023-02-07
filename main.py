@@ -1,3 +1,5 @@
+import turtle
+
 def floor():
     '''
     TODO: From Alexander
@@ -11,7 +13,9 @@ def window():
     Function draws window.
     :return:
     '''
-    pass
+    for i in range(4):
+        turtle.forward(100)
+        turtle.lt(90)
 
 
 def home():
@@ -19,5 +23,9 @@ def home():
     Function draws home.
     :return: None
     '''
-    pass
+    window()
+
+home()
+turtle.done()
+
 
