@@ -1,2 +1,5 @@
 import turtle as t
-siski
+
+def any_2():
+    pass
+
